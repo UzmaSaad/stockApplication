@@ -7,7 +7,10 @@ class apolloclient extends Component {
     constructor(props) {
         super(props);
         state : {
-            country:{'name','native','capital','emoji','currency'}
+            countries : {
+                'name',
+                'code'
+              }
         }
 
     }
